@@ -1,12 +1,17 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(211, 253, 21);
 }
-.classic{
-    border: 2px, solid;
-    margin: 2px;
-    padding: 1px;
-    border-radius: 8px ;
-    text-align:center;
-    background-color: rgb(212, 166, 109);
+h1{
+    color: red;
+}
+li{
+    color: rgb(68, 194, 194);
+}
+h2{
+    color: rgb(232, 206, 43);
+}
+q{
+    color: rgb(124, 65, 23);
 }
