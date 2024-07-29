@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            display: flex;
+            border-bottom: 1px solid #000;
+            padding-bottom: 10px;
+        }
+        .logo {
+            margin-right: 50px;
+            text-decoration: none;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding-left: 0;
+            margin: 0;
+        }
+        ul > li {
+            margin-right: 10px;
+        }
+        .box {
+            display: flex;
+            margin-bottom: 30px;
+            gap: 20px;
+            border-bottom: 1px solid #000;
+        }
+        .aside {
+            border-right: 1px solid #000;
+            padding-right: 20px;
+        }
+        .post {
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="#" class="logo">LOGO</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <div class="aside">
+            <h3>Последний пост Telegram:</h3>
+            <p>
+                Все программисты скоро будут кодить на iPad с веб-версией Visual Studio Code.
+            </p>
+            <p>
+                Если интересно, как это будет, то смотри видео-обзор на приложение, которое я потестировала с планшета и ноутбука.
+            </p>
+            <a href="https://t.me/frontendblok/2906">Перейти на канал</a>
+        </div>
+        <div>
+            <h1>Результаты поиска по слову "вёрстка"</h1>
+            <div>
+                <h3>Вёрстка сайтов под ключ</h3>
+                <p>Мы создаем сайты за 1 месяц и дарим логотип в подарок <a href="#">Далее</a></p>
+            </div>
+            <div>
+                <h3>Научись верстать сайты быстро!</h3>
+                <p>Подробный обучающий курс для новичков. Учим за 3 месяца. <a href="#">Далее</a></p>
+            </div>
+            <div>
+                <h3>Отмечаем ровно один год!</h3>
+                <p>Наша школа за этот год обучила вёрстке уже 1000 студентов! <a href="#">Далее</a></p>
+            </div>
+            <hr>
+            <h2>Полезная статья:</h2>
+            <div class="post">
+                <p>
+                    Всем привет, меня зовут Анна Блок, и эта статья будет посвящена довольно «острой» теме, которая связана с позиционированием элементов. Мы поговорим о таком свойстве как position и его значениях: relative, absolute и fixed. Также мы поговорим о таком значении как static, но по большей степени нас будет интересовать именно первая «троица», так как она чаще всего используется на сайтах.
+                </p>
+                <a href="#">Читать далее</a>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <p>&copy; Базовый курс по вёрстке от FrontendBlok</p>
+    </div>
+</body>
+</html>
