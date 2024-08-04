@@ -34,7 +34,7 @@ ul > li:not(:last-child) {
 }
 .post {
     padding-bottom: 20px;
-    border-radius: ;
+    border-radius: 2px;
 }
 section{
     padding: 5px 20px;
